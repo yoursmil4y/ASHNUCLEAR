@@ -1,0 +1,9 @@
+type: material
+name: uranium-rod
+localizedName: Урановый стержень
+description: Компактное топливо для ядерного реактора.
+color: "77DD77"
+radioactivity: 1.7
+explosiveness: 0.5
+hardness: 0
+cost: 4

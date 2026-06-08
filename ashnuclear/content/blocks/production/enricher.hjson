@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: enricher
+localizedName: Обогатитель урана
+description: Обогащает уран с добавлением пиротита.
+size: 3
+hasItems: true
+hasPower: true
+craftTime: 90
+consumes: {
+  power: 3.0
+  items: [
+    { "item": "uranium", "amount": 4 }
+    { "item": "pyratite", "amount": 2 }
+  ]
+}
+outputItems: [
+  { "item": "enriched-uranium", "amount": 1 }
+]
+requirements: [
+  { "item": "titanium", "amount": 200 }
+  { "item": "silicon", "amount": 150 }
+  { "item": "steel", "amount": 100 }
+  { "item": "lead", "amount": 300 }
+]
+category: crafting
+research: rod-fabricator

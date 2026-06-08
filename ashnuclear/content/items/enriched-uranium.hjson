@@ -1,0 +1,9 @@
+type: material
+name: enriched-uranium
+localizedName: Обогащённый уран
+description: Высокоактивное топливо и компонент для ядерных боеприпасов.
+color: "88FF88"
+radioactivity: 2.0
+explosiveness: 0.8
+hardness: 0
+cost: 5

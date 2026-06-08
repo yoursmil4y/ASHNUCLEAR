@@ -1,0 +1,55 @@
+type: ItemTurret
+name: pyro-hound
+localizedName: Пиро Гончая
+description: Зенитная турель. Пиротит — залповый огонь, обогащённый уран — мощные снаряды.
+size: 3
+health: 1200
+requirements: [
+  { "item": "lead", "amount": 750 }
+  { "item": "uranium", "amount": 200 }
+  { "item": "thorium", "amount": 500 }
+  { "item": "steel", "amount": 350 }
+]
+category: turret
+research: radioshot
+targetAir: true
+targetGround: false
+range: 50
+trackingRange: 50
+inaccuracy: 6
+rotateSpeed: 6
+ammoUse: 1
+ammoTypes: {
+  pyratite: {
+    type: BasicBulletType
+    damage: 30
+    speed: 6
+    lifetime: 140
+    bulletWidth: 8
+    bulletHeight: 8
+    shots: 3
+    reloadTime: 10
+    shootEffect: shootBig2
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    incendChance: 1.0
+    incendAmount: 4
+  }
+  enriched-uranium: {
+    type: BasicBulletType
+    damage: 100
+    speed: 7.5
+    lifetime: 110
+    bulletWidth: 10
+    bulletHeight: 12
+    shots: 1
+    reloadTime: 30
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierce: true
+    pierceCap: 2
+    incendChance: 0.6
+    incendAmount: 3
+  }
+}

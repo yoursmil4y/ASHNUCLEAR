@@ -1,0 +1,11 @@
+type: StatusEffect
+name: irradiated
+localizedName: Облучение
+description: Получает радиационный урон каждый миг.
+damage: 5
+damageMultiplier: 1.0
+speedMultiplier: 0.8
+healthMultiplier: 0.9
+color: "88FF88"
+effect: greenCloud
+applyEffect: greenCloud

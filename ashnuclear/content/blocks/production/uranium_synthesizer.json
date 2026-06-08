@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Синтезатор урана",
+  "description": "Синтезирует уран из тория, нефти и пластистана.",
+  "size": 5,
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": true,
+  
+  "craftTime": 60,
+  "consumes": {
+    "power": 4.0,
+    "items": [
+      { "item": "thorium", "amount": 5 },
+      { "item": "plastanium", "amount": 3 }
+    ],
+    "liquids": [
+      { "liquid": "oil", "amount": 0.1 }
+    ]
+  },
+  
+  "outputItems": [
+    { "item": "uranium", "amount": 1 }
+  ],
+  
+  "requirements": [
+    { "item": "thorium", "amount": 120 },
+    { "item": "lead", "amount": 500 },
+    { "item": "silicon", "amount": 400 }
+  ],
+  
+  "category": "crafting",
+  "research": "plastanium-compressor"
+}

@@ -1,0 +1,7 @@
+type: material
+name: steel
+localizedName: Сталь
+description: Прочный сплав железа и кремния.
+color: "AAAAAA"
+hardness: 0
+cost: 2

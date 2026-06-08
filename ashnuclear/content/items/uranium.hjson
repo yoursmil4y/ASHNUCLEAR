@@ -1,0 +1,9 @@
+type: material
+name: uranium
+localizedName: Уран
+description: Радиоактивный материал. Требует осторожного обращения.
+color: "55DD55"
+radioactivity: 1.5
+explosiveness: 0.4
+hardness: 4
+cost: 3

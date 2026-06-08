@@ -1,0 +1,48 @@
+type: ItemTurret
+name: radioshot
+localizedName: Радиовыстрел
+description: Радиоактивная пушка. Торий — дальний обстрел, уран — мощный удар.
+size: 2
+health: 400
+requirements: [
+  { "item": "lead", "amount": 200 }
+  { "item": "silicon", "amount": 150 }
+  { "item": "steel", "amount": 250 }
+]
+category: turret
+research: steel-furnace
+targetAir: false
+targetGround: true
+range: 20
+trackingRange: 20
+reloadTime: 20
+inaccuracy: 2
+ammoUse: 1
+ammoTypes: {
+  thorium: {
+    type: BasicBulletType
+    damage: 50
+    speed: 6.5
+    lifetime: 55
+    bulletWidth: 10
+    bulletHeight: 12
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierce: false
+  }
+  uranium: {
+    type: BasicBulletType
+    damage: 100
+    speed: 4.5
+    lifetime: 40
+    bulletWidth: 12
+    bulletHeight: 14
+    shootEffect: shootBig2
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierce: true
+    incendChance: 0.5
+    incendAmount: 3
+  }
+}

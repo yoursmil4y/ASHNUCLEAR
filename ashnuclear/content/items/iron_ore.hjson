@@ -1,0 +1,10 @@
+type: material
+name: iron_ore
+localizedName: Железная руда
+description: Основа для металлургии. Плавится в сталь.
+color: "AA8866"
+hardness: 2
+cost: 1
+ore: true
+oreDefault: true
+oreThreshold: 0.6

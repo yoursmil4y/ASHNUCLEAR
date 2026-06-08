@@ -1,0 +1,45 @@
+type: ItemTurret
+name: apocalypse-launcher
+localizedName: Запуск Апокалипсиса
+description: Ручная ядерная пушка. Стреляет только по команде игрока.
+size: 4
+health: 2500
+requirements: [
+  { "item": "lead", "amount": 1000 }
+  { "item": "steel", "amount": 750 }
+  { "item": "silicon", "amount": 700 }
+  { "item": "uranium", "amount": 500 }
+]
+category: turret
+research: pyro-hound
+targetAir: true
+targetGround: true
+range: 100
+trackingRange: 0
+rotateSpeed: 0
+reloadTime: 1800
+shots: 1
+inaccuracy: 0
+consumes: { "power": 40 }
+ammoUse: 1
+ammoTypes: {
+  annihilation-core: {
+    type: BasicBulletType
+    damage: 500
+    splashDamage: 250
+    splashDamageRadius: 60
+    speed: 4
+    lifetime: 100
+    bulletWidth: 16
+    bulletHeight: 16
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierce: true
+    pierceCap: 10
+    hitEffect: hitMeltdown
+    despawnEffect: hitMeltdown
+    incendChance: 1.0
+    incendAmount: 10
+  }
+}

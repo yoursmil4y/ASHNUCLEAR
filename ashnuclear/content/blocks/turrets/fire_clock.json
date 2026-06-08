@@ -1,0 +1,33 @@
+{
+  "type": "ItemTurret",
+  "name": "Огненный часовщик",
+  "description": "Стреляет пиротитом, прожигая врагов насквозь.",
+  "size": 2,
+  "health": 380,
+  "requirements": [
+    { "item": "copper", "amount": 110 },
+    { "item": "steel", "amount": 40 }
+  ],
+  "category": "turret",
+  "research": "pyratite-mixer",
+  "range": 96,
+  "trackingRange": 96,
+  "reloadTime": 32,
+  "inaccuracy": 2,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "pyratite": {
+      "type": "BasicBulletType",
+      "damage": 15,
+      "speed": 5,
+      "lifetime": 60,
+      "bulletWidth": 8,
+      "bulletHeight": 8,
+      "shootEffect": "shootSmall",
+      "pierce": true,
+      "incendChance": 0.8,
+      "incendAmount": 2
+    }
+  }
+}

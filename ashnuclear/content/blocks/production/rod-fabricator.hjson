@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: rod-fabricator
+localizedName: Сборщик стержней
+description: Прессует уран, свинец и сталь в стержни для реактора.
+size: 3
+hasItems: true
+hasPower: true
+craftTime: 60
+consumes: {
+  power: 2.5
+  items: [
+    { "item": "lead", "amount": 3 }
+    { "item": "steel", "amount": 3 }
+    { "item": "uranium", "amount": 2 }
+  ]
+}
+outputItems: [
+  { "item": "uranium-rod", "amount": 1 }
+]
+requirements: [
+  { "item": "titanium", "amount": 200 }
+  { "item": "silicon", "amount": 150 }
+  { "item": "steel", "amount": 100 }
+]
+category: crafting
+research: uranium-synthesizer

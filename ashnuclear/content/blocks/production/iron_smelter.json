@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Синтезатор железа",
+  "description": "Сплавляет медь и свинец в железо.",
+  "size": 2,
+  "hasItems": true,
+  "hasPower": true,
+  "craftTime": 45,
+  "consumes": {
+    "power": 0.8,
+    "items": [
+      { "item": "copper", "amount": 1 },
+      { "item": "lead", "amount": 2 }
+    ]
+  },
+  "outputItems": [
+    { "item": "iron_ore", "amount": 1 }
+  ],
+  "requirements": [
+    { "item": "copper", "amount": 40 },
+    { "item": "lead", "amount": 30 }
+  ],
+  "category": "crafting",
+  "research": "graphite-press"
+}
