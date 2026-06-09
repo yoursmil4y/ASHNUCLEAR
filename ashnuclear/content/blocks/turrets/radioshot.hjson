@@ -13,9 +13,8 @@ category: turret
 research: steel-furnace
 targetAir: false
 targetGround: true
-range: 20
-trackingRange: 20
-reloadTime: 20
+range: 14
+trackingRange: 14
 inaccuracy: 2
 ammoUse: 1
 ammoTypes: {

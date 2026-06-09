@@ -1,21 +1,19 @@
 {
   "type": "ImpactReactor",
   "name": "uranium-reactor",
-  "localizedName": "Ядерный реактор",
-  "description": "Вырабатывает огромную энергию из урановых стержней. Требует криожидкость и большое количество энергии для запуска.",
+  "localizedName": "Урановый реактор",
+  "description": "Вырабатывает энергию из урановых стержней. Для запуска требует 1500 ед/с!",
   "size": 4,
-  "health": 1800,
+  "health": 900,
   "hasItems": true,
   "hasLiquids": true,
   
-  "powerProduction": 120.0,
-  "itemDuration": 180,
+  "itemDuration": 240,
+  "powerProduction": 130.0,
   
   "consumes": {
-    "power": 40.0,
-    "items": [
-      { "item": "uranium-rod", "amount": 1 }
-    ],
+    "power": 25.0,
+    "items": [ "uranium-rod/1" ],
     "liquid": { "liquid": "cryofluid", "amount": 0.3 }
   },
   
@@ -27,5 +25,5 @@
   ],
   
   "category": "power",
-  "research": "uranium-synthesizer"
+  "research": "rod-fabricator"
 }

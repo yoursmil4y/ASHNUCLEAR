@@ -15,9 +15,8 @@ research: pyro-hound
 targetAir: true
 targetGround: true
 range: 100
-trackingRange: 0
-rotateSpeed: 0
-reloadTime: 1800
+trackingRange: 90
+rotateSpeed: 5
 shots: 1
 inaccuracy: 0
 consumes: { "power": 40 }

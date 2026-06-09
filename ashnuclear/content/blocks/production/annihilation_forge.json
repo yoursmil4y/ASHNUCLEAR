@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "annihilation-forge",
+  "localizedName": "Кузница аннигиляции",
+  "description": "Создаёт Ядро аннигиляции — финальный ресурс. Требует много энергии и времени.",
+  "size": 5,
+  "hasItems": true,
+  "hasPower": true,
+  "craftTime": 1800,
+  
+  "consumes": {
+    "power": 12.0,
+    "items": [
+      { "item": "lead", "amount": 10 },
+      { "item": "blast-compound", "amount": 5 },
+      { "item": "enriched-uranium", "amount": 7 },
+      { "item": "surge-alloy", "amount": 5 },
+      { "item": "pyratite", "amount": 6 }
+    ]
+  },
+  
+  "outputItems": [
+    { "item": "annihilation-core", "amount": 1 }
+  ],
+  
+  "requirements": [
+    { "item": "steel", "amount": 800 },
+    { "item": "silicon", "amount": 600 },
+    { "item": "plastanium", "amount": 400 },
+    { "item": "thorium", "amount": 500 },
+    { "item": "lead", "amount": 1000 }
+  ],
+  
+  "category": "crafting",
+  "research": "uranium-reactor"
+}
